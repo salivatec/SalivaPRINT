@@ -14,7 +14,7 @@ import math
 VERSION = 0.1.1
 
 # NP print options
-np.set_printoptions(threshold=0)
+np.set_printoptions(threshold=0.5)
 np.set_printoptions(suppress=True)
 
 def read_all_data(file):
