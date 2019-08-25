@@ -2,14 +2,15 @@ import configparser
 import csv
 import sys
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
 import pylab as plt
 import scipy as scp
 import matplotlib
 import joblib
-from sklearn import preprocessing
 import math
+
+from sklearn import preprocessing
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
 
 VERSION = 0.1.1
 
