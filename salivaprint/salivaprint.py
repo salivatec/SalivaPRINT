@@ -7,14 +7,14 @@ from sklearn.metrics import accuracy_score
 import pylab as plt
 import scipy as scp
 import matplotlib
-from sklearn.externals import joblib
+import joblib
 from sklearn import preprocessing
 import math
 
-VERSION = 0.1
+VERSION = 0.1.1
 
 # NP print options
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=0)
 np.set_printoptions(suppress=True)
 
 def read_all_data(file):
