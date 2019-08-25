@@ -1,6 +1,6 @@
 # SalivaPRINT
 
-SalivaPRINT available commands can be checked anytime by using -h as argument. The following commands are currently implemented (version 0.1):
+SalivaPRINT available commands can be checked anytime by using -h as argument. The following commands are currently implemented (version 0.1.1):
 
 -v: Displays the program and required libraries version.
 
