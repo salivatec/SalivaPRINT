@@ -2,19 +2,20 @@ import configparser
 import csv
 import sys
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
 import pylab as plt
 import scipy as scp
 import matplotlib
-from sklearn.externals import joblib
-from sklearn import preprocessing
+import joblib
 import math
 
-VERSION = 0.1
+from sklearn import preprocessing
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+
+VERSION = 0.1.1
 
 # NP print options
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=0.5)
 np.set_printoptions(suppress=True)
 
 def read_all_data(file):
